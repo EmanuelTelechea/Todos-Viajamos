@@ -1,0 +1,24 @@
+.header {
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/header-background.jpg') center center no-repeat;
+	background-size: cover;
+}
+.imgChica{
+	height		: 200px;
+    width		: 280px;
+    border-radius: 5px;
+}
+.imgGrande{
+	height		: 300px;
+    border-radius: 5px;
+	margin-left: 100px;
+}
+#inicioNegro{
+	padding-top: 30px;
+	padding-bottom:20px ;
+	background-color: black;
+	color: white;
+	border-radius: 10px;
+}
+#navegacion{
+	background-color: blue;
+}

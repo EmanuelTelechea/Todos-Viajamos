@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todos Viajamos</title>
+  <link rel="icon" href="imagenes/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="imagenes/favicon.ico" type="image/x-icon">
+  <!-- Agregar enlaces a los estilos de Bootstrap (CSS) -->
+  <link rel="StyleSheet" type="text/css" href="css/estilos.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Todos Viajamos</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="quienesSomos.html">quienes somos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="ubicacion.html">Ubicación</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="destinosAereos.html">destinos Aereos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="destinosTerrestres.html">Destinos Terrestres</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="escapadas.html">Escapadas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="accesibilidadDeDestinos.html">Accesibbilidadde destinos</a>
+          </li>
+          <li class="nav-item">
+                <a class="nav-link" href="contratar.html">Contratar</a>
+            </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Contenido de la página -->
+  <div class="container">
+    <br>
+    <h2>Destinos aereos recomendados</h2>
+    <hr>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card" style="width: 18rem;">
+          <img src="imagenes/cancun.webp" class="card-img-top" alt="obelisco">
+          <div class="card-body">
+            <h5 class="card-title">Cancun</h5>
+            <p class="card-text"></p>
+            <a href="#" class="btn btn-primary" data-target="#cancunModal" data-toggle="modal">Ver más</a>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="cancunModal" tabindex="-1" role="dialog" aria-labelledby="cancunModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="cancunModalLabel">Cancún</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Cancún es una ciudad de México ubicada en la península de Yucatán que limita con el mar Caribe y que es conocida por sus playas, los numerosos centros turísticos y la vida nocturna. Se compone de 2 áreas distintas: el área del centro más tradicional y la Zona Hotelera, la franja costera con hoteles altos, clubes nocturnos, tiendas y restaurantes. Cancún también es un destino popular entre estudiantes durante el período de vacaciones universitarias en la primavera.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card" style="width: 18rem;">
+          <img src="imagenes/machupichu.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">machu pichu</h5>
+            <p class="card-text"></p>
+            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#machuPicchuModal">Ver más</a>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="machuPicchuModal" tabindex="-1" role="dialog" aria-labelledby="machuPicchuModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="machuPicchuModalLabel">Machu Picchu</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Machu Picchu es una ciudadela inca ubicada en las alturas de las montañas de los Andes en Perú, sobre el valle del río Urubamba. Se construyó en el siglo XV y luego fue abandonada, y es famosa por sus sofisticadas paredes de piedra seca que combinan enormes bloques sin el uso de un mortero, los edificios fascinantes que se relacionan con las alineaciones astronómicas y sus vistas panorámicas. El uso exacto que tuvo sigue siendo un misterio.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card" style="width: 18rem;">
+          <img src="imagenes/piramidemexico.jpg" class="card-img-top" alt="piramide itza">
+          <div class="card-body">
+            <h5 class="card-title">Piramide de Itza</h5>
+            <p class="card-text"></p>
+            <a href="#" class="btn btn-primary"data-toggle="modal" data-target="#piramideModal">Ver más</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="piramideModal" tabindex="-1" role="dialog" aria-labelledby="piramideModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="piramideModalLabel">Piramide de Itza</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>El templo de Kukulcán, ​ es un edificio prehispánico ubicado en la península de Yucatán, en el actual estado del mismo nombre. El actual templo se construyó en el siglo XII d. C. por los mayas itzaes en su capital, la ciudad de Chichén Itzá, fundada originalmente en el siglo VI d. C.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <h2>Destinos terrestres recomendados</h2>
+    <hr>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card" style="width: 18rem;">
+          <img src="imagenes/puntadeleste.jpg" class="card-img-top" alt="puna del este">
+          <div class="card-body">
+            <h5 class="card-title">Punta del este</h5>
+            <p class="card-text"></p>
+            <a href="#" class="btn btn-primary"data-toggle="modal" data-target="#puntaModal">Ver más</a>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="puntaModal" tabindex="-1" role="dialog" aria-labelledby="puntaModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="puntaModalLabel">Punta del este</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Punta del Este es un balneario que se encuentra en una angosta península del sudeste de Uruguay. La popular playa Brava es conocida por su fuerte oleaje y por "La mano", una escultura gigante de 5 dedos.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card" style="width: 18rem;">
+          <img src="imagenes/bariloche.jpeg" class="card-img-top" alt="bariloche">
+          <div class="card-body">
+            <h5 class="card-title">Bariloche</h5>
+            <p class="card-text"></p>
+            <a href="#" class="btn btn-primary"data-toggle="modal" data-target="#barilocheModal">Ver más</a>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="barilocheModal" tabindex="-1" role="dialog" aria-labelledby="barilocheModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="barilocheModalLabel">Bariloche</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>San Carlos de Bariloche (comúnmente llamada Bariloche) es una ciudad en la región de la Patagonia argentina. Limita con Nahuel Huapi, un gran lago glacial rodeado de montañas de los Andes. Bariloche es conocida por su arquitectura al estilo alpino de Suiza y su chocolate, que se vende en tiendas de la calle Mitre, la avenida principal. También es una base popular para el excursionismo y el esquí en las montañas cercanas, y para explorar los alrededores del Distrito de los Lagos.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card" style="width: 18rem;">
+          <img src="imagenes/cataratadeliguazu.webp" class="card-img-top" alt="cataratas">
+          <div class="card-body">
+            <h5 class="card-title">Catarata del Iguazú</h5>
+            <p class="card-text"></p>
+            <a href="#" class="btn btn-primary"data-toggle="modal" data-target="#cataratasModal">Ver más</a>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="cataratasModal" tabindex="-1" role="dialog" aria-labelledby="cataratasModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="cataratasModalLabel">Catarata del Iguazú</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Las cataratas del Iguazú son un conjunto de cataratas que se localizan en el río Iguazú, en el límite entre la provincia argentina de Misiones, el estado brasileño de Paraná. Están totalmente insertadas en áreas protegidas; el sector de la Argentina se encuentra dentro del parque nacional Iguazú, mientras que el de Brasil se encuentra en el Parque nacional del Iguazú (Parque Nacional do Iguaçu), en el Estado de Paraná. Se encuentran próximas a la frontera entre Paraguay y Argentina, a sólo 13,8 km en línea recta. Fueron elegidas como una de las «Siete maravillas naturales del mundo.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <h2>Escapadas recomendadas</h2>
+      <hr>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card" style="width: 18rem;">
+          <img src="imagenes/plazadetoroscolonia.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Plaza de toros</h5>
+            <p class="card-text"></p>
+            <a href="#" class="btn btn-primary"data-toggle="modal" data-target="#plazadeTorosModal">Ver más</a>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="plazadeTorosModal" tabindex="-1" role="dialog" aria-labelledby="plazadeTorosModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="plazadeTorosModalLabel">Plaza de toros</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>La Plaza de toros Real de San Carlos es una antigua plaza de toros de Uruguay, ubicada en la zona del Real de San Carlos en Colonia del Sacramento, en el departamento de Colonia. En la actualidad funciona como un centro de espectáculos culturales y deportivos. Es la única plaza taurina existente en Uruguay.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card" style="width: 18rem;">
+          <img src="imagenes/barriohistoricocolonia.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Barrio historico Coloia</h5>
+            <p class="card-text"></p>
+            <a href="#" class="btn btn-primary"data-toggle="modal" data-target="#barriohistoricocoloniaModal">Ver más</a>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="barriohistoricocoloniaModal" tabindex="-1" role="dialog" aria-labelledby="barriohistoricocoloniaModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="barriohistoricocoloniaModalLabel">Barrio historico Coloia</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Fundada en 1680, Colonia fue durante un siglo disputada por España y Portugal en un proceso que culminó en 1777, cuando se incorporó a dominio español casi destruida. De significación histórica, estratégica y geopolítica indudable, fue plaza fuerte militar portugués y rica factoría comercial. Su condición peninsular y su implantación en un terreno elevado con suave pendiente hacia el perímetro costero calificaron su ambiente y su imagen.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card" style="width: 18rem;">
+          <img src="imagenes/obelisco.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Obelisco</h5>
+            <p class="card-text"></p>
+            <a href="#" class="btn btn-primary"data-toggle="modal" data-target="#obeliscoModal">Ver más</a>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="obeliscoModal" tabindex="-1" role="dialog" aria-labelledby="obeliscoModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="obeliscoModalLabel">Obelisco</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>El Obelisco de Buenos Aires es un monumento histórico, considerado ícono de Buenos Aires, capital de Argentina. Tiene una altura de 67,5 metros, de los cuales 63 son desde la base de 7x7 m hasta el inicio del ápice de 3,50x3,50 m, culminando con una punta del estilo Roma de unos 40 cm.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <footer class="text-center text-white" style="background-color: #f1f1f1;">
+    <!-- Grid container -->
+    <div class="container pt-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <!-- Github -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2023 Copyright:
+      <a class="text-dark" href="https://todosviajamos.com/">Todosviajamos.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+</body>
+</html>
